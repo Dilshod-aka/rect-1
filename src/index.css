@@ -290,19 +290,19 @@ nav {
     cursor: pointer
 }
 
-.hati {
+.lee {
     width: 100px;
     height: 128px;
     left: 1223px;
     padding: 7px
 }
 
-.hati img {
+.lee img {
     width: 86.09px;
     height: 88.73px
 }
 
-.anatom {
+.rasa{
     left: 966px;
     box-shadow: 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802)
 }
@@ -418,7 +418,7 @@ nav {
     height: 228px
 }
 
-.statistics {
+.stat {
     display: flex;
     flex-direction: row;
     justify-content: center;

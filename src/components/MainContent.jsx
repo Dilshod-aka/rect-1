@@ -32,21 +32,21 @@ function MainContent() {
 
 
     {/* <!--New--> */}
-    <div className="statistics">
+    <div className="stat">
         <div className="fact">
-            <img src={img3} alt="cicle"/>
+            <img src={img3} alt="aylana"/>
             <h1>500+</h1>
             <p>Judul Buku</p>
         </div>
 
         <div className="fact fact2">
-        <img src={img3} alt="cicle"/>
+        <img src={img3} alt="aylana"/>
             <h1>$0</h1>
             <p>Gratis Peminjaman</p>
         </div>
 
         <div className="fact fact3">
-        <img src={img3} alt="cicle"/>
+        <img src={img3} alt="aylana"/>
             <h1>5</h1>
             <p>Kegiatan Rutin</p>
         </div>
@@ -60,7 +60,7 @@ function MainContent() {
         <div className="people1">
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
                 enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            <img src={img4} alt="bo"/>
+            <img src={img4}/>
             <h3>Guy Hawkins</h3>
             <h4>32 Tahun, Karyawan</h4>
         </div>

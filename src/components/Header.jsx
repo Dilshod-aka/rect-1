@@ -66,13 +66,13 @@ export default function header() {
         <img src={pic9} alt="right" className="middle-card-right"/>
         <img src={pic10} alt="right" className="middle-card-left"/>
 
-        <div className="container hati">
+        <div className="container lee">
             <h6>Hati-Hati dengan Sampah</h6>
             <h5>Ukjae Lee</h5>
             <img src={pic11} alt="img"/>
         </div>
 
-        <div className="red anatom">
+        <div className="red rasa">
             <h6>Anatomi Rasa</h6>
             <h5>Ayu Utami</h5>
             <img src={pic12} alt="img"/>
