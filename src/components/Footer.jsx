@@ -1,14 +1,14 @@
-import pic1 from '../images/image 4footer-logo.png'
+import pic1 from '../images/foot__logo.png'
 import pic2 from '../images/insta.svg'
 import pic3 from '../images/facebook.svg'
-import pic4 from '../images/Vectoryou-tube.svg'
+import pic4 from '../images/yootube.svg'
 
 
 function Footer() {
     return ( 
         <>        
     <div class="footer">
-        <div className="upper-footer">
+        <div className="flex-footer">
         <div class="footer-logo">
             <div className="logolar">
             <img src={pic1} alt="logo"/>

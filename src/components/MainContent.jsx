@@ -1,10 +1,10 @@
-import img1 from '../images/boy3.png'
-import img2 from '../images/girl.png'
-import img3 from '../images/Group 112cicle.svg'
-import img4 from '../images/biy2.png'
-import img5 from '../images/Group 124left.svg'
-import img6 from '../images/boy1.png'
-import img7 from '../images/Group 123right.svg'
+import pic1 from '../images/boy3.png'
+import pic2 from '../images/girl.png'
+import pic3 from '../images/aylana.svg'
+import pic4 from '../images/biy2.png'
+import pic5 from '../images/left.svg'
+import pic6 from '../images/boy1.png'
+import pic7 from '../images/right.svg'
 
 
 function MainContent() {
@@ -16,14 +16,14 @@ function MainContent() {
         <div className="people-card-wrapper">
             <div className="people-card1-card1">
                 <h3>“Aku rela dipenjara asalkan bersama buku, karena dengan buku aku bebas”</h3>
-                <img src={img1} alt="hatta"/>
+                <img src={pic1}/>
                 <h4>Mohammad Hatta</h4>
                 <p>Wakil Presiden Indonesia Pertama</p>
             </div>
 
             <div className="people-card1-card1 people-card1-card2">
                 <h3>“Cuma perlu satu buku untuk jatuh cinta pada membaca, Cari Buku itu! Mari jatuh cinta!</h3>
-                <img src={img2} alt="hatta"/>
+                <img src={pic2}/>
                 <h4>Najwa Shihab</h4>
                 <p>Duta Membaca</p>
             </div>
@@ -33,20 +33,20 @@ function MainContent() {
 
     {/* <!--New--> */}
     <div className="stat">
-        <div className="fact">
-            <img src={img3} alt="aylana"/>
+        <div className="card">
+            <img src={pic3} alt="aylana"/>
             <h1>500+</h1>
             <p>Judul Buku</p>
         </div>
 
-        <div className="fact fact2">
-        <img src={img3} alt="aylana"/>
+        <div className="card card2">
+        <img src={pic3} alt="aylana"/>
             <h1>$0</h1>
             <p>Gratis Peminjaman</p>
         </div>
 
-        <div className="fact fact3">
-        <img src={img3} alt="aylana"/>
+        <div className="card card3">
+        <img src={pic3} alt="aylana"/>
             <h1>5</h1>
             <p>Kegiatan Rutin</p>
         </div>
@@ -60,26 +60,22 @@ function MainContent() {
         <div className="people1">
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
                 enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            <img src={img4}/>
+            <img src={pic4}/>
             <h3>Guy Hawkins</h3>
             <h4>32 Tahun, Karyawan</h4>
         </div>
-        <img src={img5} alt="left" className="chapga"/>
+        <img src={pic5} alt="left" className="chapga"/>
 
 
         <div className="people2">
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
                 enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            <img src={img6} alt="bo"/>
+            <img src={pic6}/>
             <h3>Guy Hawkins</h3>
             <h4>32 Tahun, Karyawan</h4>
         </div>
-        <img src={img7} alt="right" className="onga"/>
-        <div className="dots">
-            <div className="active-dot dot"></div>
-            <div className="dot"></div>
-            <div className="dot"></div>
-        </div>
+        <img src={pic7} alt="right" className="onga"/>
+        
     </div>
         </>
      );

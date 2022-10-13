@@ -117,7 +117,7 @@ nav {
     color: #008F76
 }
 
-.lupa {
+.cari {
     width: 209px;
     height: 52px;
     background: #008F76;
@@ -126,14 +126,15 @@ nav {
     color: #fff;
     font-size: 16px;
     line-height: 200%;
-    border: none
+    border: none;
+    cursor: pointer;
 }
 
-.lupa img {
+.cari img {
     margin-left: 12px
 }
 
-.qol {
+.don {
     background: #fff;
     border: 1px solid #008F76;
     color: #008F76;
@@ -143,7 +144,7 @@ nav {
     font-size: 16px
 }
 
-.qol img {
+.don img {
     margin-left: 12px
 }
 
@@ -151,7 +152,8 @@ nav {
     width: 508px;
     height: 52px;
     margin: 0 auto;
-    margin-top: 48px
+    margin-top: 48px;
+    cursor:pointer;
 }
 
 .btns button {
@@ -431,7 +433,7 @@ nav {
     position: relative
 }
 
-.fact img {
+.card img {
     position: absolute;
     width: 80px;
     height: 80px;
@@ -439,7 +441,7 @@ nav {
     top: 108px
 }
 
-.fact h1 {
+.card h1 {
     position: absolute;
     width: 84px;
     height: 64px;
@@ -450,7 +452,7 @@ nav {
     line-height: 200%
 }
 
-.fact p {
+.card p {
     position: absolute;
     height: 32px;
     left: 283px;
@@ -461,32 +463,32 @@ nav {
     color: #949494
 }
 
-.fact2 img {
+.card2 img {
     left: 580px;
     top: 108px
 }
 
-.fact2 h1 {
+.card2 h1 {
     left: 714px;
     top: 100px
 }
 
-.fact2 p {
+.card2 p {
     left: 676px;
     top: 164px
 }
 
-.fact3 img {
+.card3 img {
     left: 1040px;
     top: 108px
 }
 
-.fact3 h1 {
+.card3 h1 {
     left: 1184px;
     top: 100px
 }
 
-.fact3 p {
+.card3 p {
     left: 1136px;
     top: 164px
 }
@@ -609,7 +611,8 @@ nav {
     width: 40px;
     height: 40px;
     left: 80px;
-    top: 332px
+    top: 332px;
+    cursor: pointer;
 }
 
 .onga {
@@ -617,27 +620,13 @@ nav {
     width: 40px;
     height: 40px;
     left: 1320px;
-    top: 332px
+    top: 332px;
+    cursor: pointer;
 }
 
-.dots {
-    position: absolute;
-    width: 96px;
-    height: 16px;
-    left: 672px;
-    top: 566px
-}
 
-.dot {
-    width: 16px;
-    height: 16px;
-    background: #D9D9D9;
-    border-radius: 50%
-}
 
-.active-dot {
-    background-color: #008F76
-}
+
 
 .article {
     position: relative;
@@ -896,7 +885,7 @@ footer h2 {
     margin: 0 auto;
 }
 
-.upper-footer{
+.flex-footer{
     width: 1440px;
     margin: 0 auto;
     /* background-color: #000; */

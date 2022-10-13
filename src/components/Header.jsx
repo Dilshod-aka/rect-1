@@ -1,16 +1,16 @@
 import pic1 from '../images/kitob4.svg'
 import pic2 from '../images/Vectorlupa.svg'
 import pic3 from '../images/yum.svg'
-import pic4 from '../images/Vector 14-hr.svg'
-import pic5 from '../images/image 38yurag.png'
-import pic6 from '../images/image 45baliqalar.png'
-import pic7 from '../images/image 44qiz.png'
-import pic8 from '../images/image 39totto-chan.png'
-import pic9 from '../images/Group 123right.svg'
-import pic10 from '../images/Group 124left.svg'
-import pic11 from '../images/image 41hati-hati.png'
-import pic12 from '../images/image 45atomi-rasa.png'
-import pic13 from '../images/image 37berjalan.png'
+import pic4 from '../images/Vector14.svg'
+import pic5 from '../images/yurag.png'
+import pic6 from '../images/baliq.png'
+import pic7 from '../images/qiz.png'
+import pic8 from '../images/totto.png'
+import pic9 from '../images/right.svg'
+import pic10 from '../images/left.svg'
+import pic11 from '../images/hati.png'
+import pic12 from '../images/rasa.png'
+import pic13 from '../images/berjalan.png'
 
 export default function header() {
     return ( 
@@ -35,8 +35,8 @@ export default function header() {
             <h4>Pojok Baca <span> Probolinggo</span></h4>
             <h1>Pinjam Buku Secara <span> Gratis</span> untuk Masyarakat</h1>
             <div className="btns">
-                <button className="lupa">Cari Judul Buku <img src={pic2} alt="lupa"/></button>
-                <button className="qol">Donasi dengan Kami <img src={pic3} alt="d"/></button>
+                <button className="cari">Cari Judul Buku <img src={pic2} alt="lupa"/></button>
+                <button className="don">Donasi dengan Kami <img src={pic3} alt="d"/></button>
             </div>
         </div>
         <img src={pic4} alt="hr" className="hr1"/>
